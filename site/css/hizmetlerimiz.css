@@ -1,0 +1,197 @@
+.navbar{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #1D2731;
+    position: fixed;
+    z-index: 999;
+    top: 0px;
+  }
+  .first{
+    margin-bottom:150px !important;
+  }
+
+  .navbar ol{
+    display: flex;
+    list-style: none;
+  }
+
+  .navbar ol li {
+    margin-left: 40px;
+    margin-top: 5px;
+    padding: 20px 10px;
+    font-size: 1.5rem;
+    transition: all 0.5s;
+  }
+  
+  .navbar ol li:hover{
+    background: #ca421f;
+  }
+
+  .navbar ol li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .navbar-brand{
+    font-size: 3rem;
+    color: white;
+    padding: 30px 30px;
+    padding-top: 20px;
+  }
+
+
+  @media (max-width: 768px){
+    
+    
+    .navbar{
+      width: 100%;
+      height: 100%;
+      display: block;
+      position: relative;
+  
+    }
+    
+    #footer{
+      width: 100%;
+      height: 750px;
+      display: block;
+    }
+
+    .navbar-brand{
+      margin: 15px 0px 0px 10px;
+      
+    }
+
+    .navbar ol{
+      display: block;
+    }
+
+    .navbar ol li{
+      margin: 0px 0px 0px 70px;
+      border-bottom: 1px solid rgb(145, 145,145);
+    }
+
+    #section{
+      margin-bottom:80px !important;
+    }
+
+
+  }
+  
+  body{
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    
+  }
+
+  body p,a{
+    font-family: arial !important;
+  }
+
+#footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #footer p {
+     font-family:Arial;
+     color:white;
+  } 
+
+  #wrapper{
+    min-height: calc(100vh - 60px);
+  }
+
+  h6{
+      color:White;
+  }
+
+  #abcd{
+    width:50%;
+    height:50%;
+  }
+
+  #section{
+    margin-bottom:50px;
+  }
+
+   
+
+h1{
+    border-bottom-style: solid;
+    border-bottom-color: #b71910;
+    font: 50px Arial, sans-serif;
+}
+
+h3{
+    border-bottom-style: solid;
+    border-bottom-color: #1d274a;
+    font: 25px Arial, sans-serif;
+}
+#container{
+    width: 900px;
+    margin: 0 auto;        
+}
+
+.text{
+width: 900px;
+margin:auto;
+}
+
+.roll-right{
+float:right;
+padding:0 0 10px 10px;
+}
+ 
+.roll-left{
+float:left;
+padding:0 10px 10px 0;
+}
+
+ #container p{
+    color: black;
+}
+
+
+/*Responsive başı*/
+@media (max-width: 768px){
+h1.a{
+  font-size:3.5rem;
+}
+
+#container{
+  
+  text-align:left ;
+  margin-left:10px;
+  width: 100%;
+  display: block;
+  height: 100%;
+  padding: 15px;
+  
+  
+}
+
+#abc{
+  
+  width: 100%;
+}
+
+.backgroundd{
+  resize: vertical;
+  overflow: hidden;
+  position: relative;
+}
+
+.space{
+  display:none;
+}
+
+}
+/*Responsive sonu*/
+
+
